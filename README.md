@@ -14,7 +14,7 @@ This repository hosts the comprehensive documentation, source code highlights an
 ## 🏛️ Statement of Individual Contribution & Ownership
 
 ### **Nature of the Project**
-Administratively, this final year capstone was registered and submitted as a group project to comply with institutional university regulations. However, **the entire engineering lifecycle—including all core architectural design, low-level codebase implementation, research was executed independently as a 100% individual technical contribution by Fawad Hameed Yousufi.
+Administratively, this final year capstone was registered and submitted as a group project to comply with institutional university regulations. However, the entire engineering lifecycle including all core architectural design, low-level codebase implementation, research was executed independently as a 100% individual technical contribution by Fawad Hameed Yousufi.
 
 ### **Core Competency Breakdown**
 

@@ -1,44 +1,79 @@
-# Unix2-OS-Kernel_Prototype_in_c++ Thesis
-Undergraduate Bachelor's Thesis: Design and implementation of a 32-bit monolithic Unix-like operating system kernel prototype from scratch using x86 Assembly and C++.
+# UNIX 2 – Computer Operating System Kernel Prototype in C++
 
-# UNIX 2 COMPUTER OPERATING SYSTEM: Kernel Prototype in C++
+Undergraduate Bachelor's Thesis: Design and Implementation of a 32-bit Monolithic Unix-like Operating System Kernel Prototype Using x86 Assembly and C++.
 
-# 📄 Overview
-This repository hosts the comprehensive documentation, source code highlights and the final thesis publication for **UNIX 2 OS Kernel Prototype in C++**, a lightweight, secure, 32-bit monolithic operating system kernel prototype
+# Overview
 
-* **Full Thesis Document:** Available in this repository as `UNIX_2_OS_Kernel_Thesis.pdf`.
-* **Institution:** Indus University, Faculty of Computing and Information Technology (FCIT), Pakistan.
+This repository contains the technical documentation, implementation materials, and final bachelor's thesis for the UNIX 2 Operating System Kernel Prototype, a 32-bit monolithic operating system kernel developed using x86 Assembly and C++.
 
----
+**Full Thesis**: UNIX_2_OS_Kernel_Thesis.pdf
+**Institution**: Indus University, Faculty of Computing and Information Technology (FCIT), Pakistan.
+**Project Area** : Operating Systems, Computer Architecture, Systems Programming, and Software Engineering.
 
-## 🏛️ Statement of Individual Contribution & Ownership
 
-### **Nature of the Project**
-Administratively, this final year capstone was registered and submitted as a group project to comply with institutional university regulations. However, the entire engineering lifecycle including all core architectural design, low-level codebase implementation, research was executed independently as a 100% individual technical contribution by Fawad Hameed Yousufi.
+## 🏛️ Individual Contribution and Project Scope
 
-### **Core Competency Breakdown**
+**Nature of the Project**
 
-* **Technical Execution & Systems Programming:** 
-  * **Engineered the monolithic kernel prototype completely from scratch** using a low-level hybrid architecture of x86 Assembly and Freestanding Object-Oriented C++ without relying on standard C/C++ runtime libraries.
-  * Developed the system initialization pipeline ensuring strict **Multiboot compliance with the GRUB bootloader** to transition the CPU from real-mode into a stable 32-bit protected mode execution environment.
-  * Configured independent low-level hardware abstraction subsystems, writing custom **Interrupt Service Routines (ISRs)**, mapping the **Interrupt Descriptor Table (IDT)**, remapping the Master/Slave Programmable Interrupt Controllers (PIC), and designing direct memory-mapped VGA video display text buffers.
-  * Implemented a preemptive task manager driven by a **Round-Robin (RR) scheduling algorithm** over discrete time quantums via programmable hardware timer interrupt context switching.
-  * Constructed an independent Graphical User Interface (GUI) framework capable of rendering composite pixel arrays directly to video memory spaces.
+This undergraduate final-year project was formally registered and submitted as a collaborative group project involving three team members, in accordance with the institutional requirements of Indus University.
 
-* **Methodology & Research Design:**
-  * **Formulated the system methodology** and architectural design criteria, contrasting system metrics against classic Unix blueprints, open-source Linux distributions and microkernel layouts (Minix).
-  * Authored the comprehensive literature review and engineered the **Comparative Anatomy** validating the custom kernel's physical memory isolation boundaries.
-  * Modeled all software execution states and data pipelines through detailed system Activity Diagrams, Bootstrap Sequence Diagrams and Entity-Relationship topologies.
+Within this collaborative framework, I undertook individual responsibilities in kernel architecture, low-level systems implementation, research, system design, and technical evaluation. The following sections describe my contributions to the overall project.
 
-* **Project Management & Empirical Validation:**
-  * Managed the end-to-end development cycle from initial definition to freestanding cross-compilation utilizing a custom GNU GCC toolchain.
-  * **Conducted rigorous validation protocols** using virtual machine hypervisors and hardware emulators to verify kernel-space memory stability.
-  * Deployed and benchmarked the final compiled binary directly onto live bare-metal physical x86 computer configurations using bootable local flash media, ensuring absolute platform independence.
+**1. Technical Development and Systems Programming**
 
----
+My primary technical responsibilities involved the design and implementation of core components of the monolithic kernel using x86 Assembly and freestanding Object-Oriented C++.
 
-## 🛠️ System Specifications & Prerequisites
-* **Target Architecture:** Standard consumer or embedded x86 Microprocessor (Minimum Intel 80386 / i386)
-* **Minimum Memory Bound:** 2 GB to 3 GB Volatile RAM
-* **Minimum Local Storage Footprint:** 4 GB to 5 GB for verification deployment files
-* **Development Toolchain:** GNU Compiler Collection (GCC) cross-compiler, GNU Assembler, GRUB bootloader environment
+My contributions included:
+
+Developing the system initialization sequence using the GRUB Multiboot bootloader.
+Implementing the transition to 32-bit protected-mode execution.
+Configuring the Interrupt Descriptor Table (IDT) and implementing Interrupt Service Routines (ISRs).
+Configuring the Programmable Interrupt Controllers (PIC) for hardware interrupt handling.
+Developing memory-mapped VGA text-mode display functionality.
+Implementing process management functionality using a Round-Robin (RR) scheduling algorithm and hardware timer interrupts.
+Contributing to the development of a graphical interface framework for kernel-level display operations.
+
+**2. Research Methodology and System Design**
+
+My research responsibilities included examining established operating system architectures and analysing design approaches associated with monolithic kernels, microkernel architectures, and Unix-like operating systems.
+
+My contributions included:
+
+Conducting a literature review of relevant operating system architectures and design principles.
+Analysing kernel organisation, memory management, interrupt handling, and process scheduling.
+Contributing to the architectural design and structural organisation of the proposed kernel.
+Preparing system architecture diagrams, Activity Diagrams, and Sequence Diagrams to document system components and execution workflows.
+Defining relevant data structures and documenting system design decisions.
+
+**3. Development Management, Testing and Evaluation**
+
+My responsibilities also included development and evaluation activities associated with the kernel implementation.
+
+These activities included:
+
+Working with a GNU GCC cross-compilation toolchain and GNU Assembler.
+Conducting functional testing in virtual machine and emulator environments.
+Evaluating kernel initialisation, interrupt handling, process scheduling, and system functionality.
+Performing bare-metal deployment tests on physical x86 hardware using bootable storage media.
+Documenting implementation behaviour, testing procedures, and evaluation observations.
+
+**4. Individual Contribution Statement**
+
+Although the project was formally completed as a collaborative undertaking involving three team members, the technical development, research, system design, and evaluation responsibilities described above identify my individual contributions within the overall project.
+
+The final thesis documents the collective project, while this statement identifies my specific academic and technical responsibilities.
+
+###  🛠️ System Specifications and Development Environment
+**Target Architecture**: 32-bit x86 (i386)
+**Programming Languages**: C++ and Assembly
+**Bootloader**: GRUB Multiboot
+**Development Toolchain**: GNU GCC cross-compiler and GNU Assembler
+**Interrupt Management**: IDT, ISRs, and PIC configuration
+**Process Scheduling**: Round-Robin scheduling
+**Testing Environments**: Virtual machine emulators and physical x86 hardware
+
+**Academic Documentation**
+
+The complete bachelor's thesis is provided in this repository as UNIX_2_OS_Kernel_Thesis.pdf.
+
+It documents the project's objectives, architectural design, implementation approach, technical development, and evaluation.

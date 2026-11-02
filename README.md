@@ -1,10 +1,10 @@
 # UNIX 2 – Computer Operating System Kernel Prototype in C++
 
-Undergraduate Bachelor's Thesis: Design and Implementation of a 32-bit Monolithic Unix-like Operating System Kernel Prototype Using x86 Assembly and C++.
+Undergraduate Bachelor's Thesis: Design and Implementation of a 32-bit Monolithic Unix-like Operating System Kernel Prototype Using Assembly and C++.
 
 # Overview
 
-This repository contains the technical documentation, implementation materials, and final bachelor's thesis for the UNIX 2 Operating System Kernel Prototype, a 32-bit monolithic operating system kernel developed using x86 Assembly and C++.
+This repository contains the technical documentation, implementation materials, and final bachelor's thesis for the UNIX 2 Operating System Kernel Prototype, a 32-bit monolithic operating system kernel developed using  Assembly and C++.
 
 **Full Thesis**: UNIX_2_OS_Kernel_Thesis.pdf
 **Institution**: Indus University, Faculty of Computing and Information Technology (FCIT), Pakistan.
@@ -21,7 +21,7 @@ Within this collaborative framework, I undertook individual responsibilities in 
 
 **1. Technical Development and Systems Programming**
 
-My primary technical responsibilities involved the design and implementation of core components of the monolithic kernel using x86 Assembly and freestanding Object-Oriented C++.
+My primary technical responsibilities involved the design and implementation of core components of the monolithic kernel using Assembly and freestanding Object-Oriented C++.
 
 My contributions included:
 
@@ -54,7 +54,7 @@ These activities included:
 Working with a GNU GCC cross-compilation toolchain and GNU Assembler.
 Conducting functional testing in virtual machine and emulator environments.
 Evaluating kernel initialisation, interrupt handling, process scheduling, and system functionality.
-Performing bare-metal deployment tests on physical x86 hardware using bootable storage media.
+Performing bare-metal deployment tests on physical hardware using bootable storage media.
 Documenting implementation behaviour, testing procedures, and evaluation observations.
 
 **4. Individual Contribution Statement**
